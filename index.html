@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="my-4 d-flex justify-content-center align-items-center">
+            <div style="width: 500px;">
+                <h3>Add Product</h3>
+                <form action="#" class="form">
+                    <input type="text" class="form-control title" placeholder="Product Name">
+                    <input type="text" class="form-control price my-1" placeholder="Price">
+                    <input type="file" class="form-control img_file" accept="image/*">
+                    <input type="submit" value="Submit" class="btn btn-primary my-2">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row container-fluid">
+
+        <!-- Grid column -->
+        <div class="col-md-6">
+
+            <!-- Exaple 1 -->
+            <div class="card example-1 scrollbar-ripe-malinka">
+                <div class="card-body">
+                    <div class="row  my-1 " id="items">
+
+                        <!-- append items in there from addProduct Function -->
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- Exaple 1 -->
+
+        </div>
+
+
+        <div class="col-md-6">
+
+            <section class="" style="background-color: #eee;">
+                <div class="container ">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col">
+
+                            <div>
+
+                                <hr>
+
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div>
+                                        <p class="mb-1">Shopping cart</p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="card example-1 scrollbar-ripe-malinka">
+                                    <div class="card-body" id="cartItem">
+
+
+                                        <!-- Add To Cart is append here which come from addToCart Function -->
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
